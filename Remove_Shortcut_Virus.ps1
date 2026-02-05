@@ -1,6 +1,6 @@
 
 # Shortcut Virus Removal Tool for USB Drives
-# Written by CodeGeeX
+
 
 # Check if running as administrator
 $isAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
@@ -617,3 +617,4 @@ do {
 Write-Host "========================================" -ForegroundColor Green
 Write-Host "      Thank you for using this tool!" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Green
+
